@@ -163,7 +163,7 @@ body {
     }
 }
 
-@media screen and (min-width:366px) and (max-width:600px) {
+@media screen and (min-width:350px) and (max-width:600px) {
     .image-row {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -185,16 +185,19 @@ body {
 
 header .servis-logo .center-icon img {
     /* margin-top: 50px; */
-    margin-left: 10px;
+    /* margin-left: 1px; */
     margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
 header .logo-center img {
-    margin-left: 60px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-top: 20px;
+    /* width: 200px; */
+    /* height: 70px; */
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 header .search-logo span {
@@ -202,6 +205,9 @@ header .search-logo span {
 }
 header ul li a{
     margin-left: 10px;
+}
+header .servis-logo img{
+    margin-left: 0px;
 }
 
 /* footer .sky {
