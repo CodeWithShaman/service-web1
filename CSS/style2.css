@@ -1,0 +1,91 @@
+/* Media Quary section min-width: 768px*/
+@media only screen and (min-width: 768px) {
+    .image2 img {
+        display: none;
+    }
+    .small-screen video {
+        display: none;
+    }
+    .main {
+        width: 105%;
+        height: 100vh;
+        background-image: url("../IMAGE/ndure-banner-dimensions.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+/* Media Quary section max-width: 768px */
+@media only screen and (max-width: 768px) {
+    .big-screen video {
+        display: none;
+    }
+    .small-screen video {
+        background-position: center;
+        background-size: 100% 100vh;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main {
+        width: 105%;
+        height: 100vh;
+        background-image: url("../IMAGE/ndure3.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .navbar ul li a {
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 12px;
+        padding: -0px;
+        /* padding-left: 20px; */
+        text-align: center;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', ans-serif;
+        color: rgb(0, 0, 0);
+    }
+    .image img {
+        display: none;
+    }
+    .image2 img {
+        width: 105%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    footer .sky {
+        margin-left: 80px;
+    }
+    #none span {
+        display: none;
+    }
+    .servis-logo img {
+        /* margin-top: 50px; */
+        margin-left: 10px;
+    }
+    .search-logo span {
+        display: none;
+    }
+    .center-icon img {
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+    header .logo-center img {
+        margin-left: 15%;
+    }
+
+    header .log img {
+        /* margin-right: 10px; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .live-video video{
+        display: none;
+    }
+}

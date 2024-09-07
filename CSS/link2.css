@@ -1,0 +1,78 @@
+/* Media Quary section min-width: 768px*/
+/* @media only screen and (min-width: 768px) { */
+    /* .image2 img {
+        display: none;
+    }
+    .small-screen video {
+        display: none;
+    } */
+    /* .main {
+        width: 100%;
+        height: 100vh;
+        background-image: url("./ndure-banner-dimensions.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    } */
+
+/* Media Quary section max-width: 768px */
+@media only screen and (max-width: 768px) {
+    /* .big-screen video {
+        display: none;
+    }
+    .small-screen video {
+        background-position: center;
+        background-size: 100% 100vh;
+    } */
+    /* .main {
+        height: 100vh;
+        background-image: url("./ndure3.webp");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    } */
+    .navbar ul li a {
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 13px;
+        padding: -0px;
+        text-align: center;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', ans-serif;
+        color: rgb(0, 0, 0);
+    }
+    /* .image img {
+        display: none;
+    } */
+    .image2 img {
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    /* footer .sky {
+        margin-left: 80px;
+    } */
+    #none span {
+        display: none;
+    }
+    
+    .search-logo span {
+        display: none;
+    }
+    .center-icon img {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    /* header .logo-center img {
+        margin-left: 5%;
+    } */
+
+    header .log img {
+        /* margin-right: 10px; */
+    }
+    /* .live-video video{
+        display: none;
+    } */
+}
